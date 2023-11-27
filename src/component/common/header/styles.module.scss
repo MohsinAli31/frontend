@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+        max-width: 1220px;
+        margin: 0 auto;
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            font-family: 'Heebo';
+            font-weight: 700;
+            &:nth-child(2){
+                padding: 0 20px;
+            }
+        }
+    }
+}

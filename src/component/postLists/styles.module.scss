@@ -1,0 +1,116 @@
+.featureList {
+    max-width: 1220px;
+    // height: 2041px;
+    background: #FFF;
+    margin: 0 auto;
+
+    @media(max-width:991px) {
+        text-align: center;
+        .ContentList {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .mainList {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        color: var(--Dark-Color, #21243D);
+        font-family: Heebo;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+        /* 272.727% */
+    }
+
+    .mainList {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #E0E0E0;
+        margin-bottom: 25px;
+        padding-bottom: 13px;
+
+        .image {
+            // width: 246px;
+            // height: 180px;
+            flex-shrink: 0;
+            border-radius: 6px;
+        }
+
+        .content {
+            margin-left: 10px;
+
+            .Listtitle {
+                margin-top: -5px;
+                color: var(--Dark-Color, #21243D);
+                font-family: Heebo;
+                font-size: 30px !important;
+                font-style: normal;
+                font-weight: 700 !important;
+                line-height: normal !important;
+                margin-bottom: 0;
+
+            }
+
+            .dateSection {
+                display: flex;
+                align-items: center;
+
+                .dashboard {
+                    color: var(--Light, #8695A4);
+                    font-family: Heebo;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-left: 20px;
+                }
+
+                .date {
+                    // color: #FFF;
+                    width: 62px;
+                    height: 25px;
+                    border-radius: 16px;
+                    background: #142850;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    /* 333.333% */
+                    span {
+                        color: #FFF;
+                        font-family: Heebo;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+}
