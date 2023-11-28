@@ -1,21 +1,31 @@
 .banner {
     display: flex;
-    padding-bottom: 40px;
     @media(max-width:991px){
         flex-direction: column;
         text-align: center;
         justify-content: center;
         align-items: center;
+        gap: 0px;
+        margin-top: 0;
     }
 
     justify-content: space-between;
     align-items: center;
     max-width: 1220px;
     margin: 0 auto;
+    gap: 70px;
+    padding: 50px;
+    margin-top: 80px;
+
     .menu {
         h1 {
-            // width: 506px;
-            // height: 105px;
+            @media(max-width:425px){
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 35px;
+            }
+
             flex-shrink: 0;
             color: var(--Dark-Color, #21243D);
             font-family: Heebo;
@@ -23,6 +33,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: 60px;
+            margin: 0;
             /* 136.364% */
         }
 
@@ -37,11 +48,17 @@
             font-weight: 400;
             line-height: normal;
         }
+        .desp{
+            width: 100%;
+            max-width: 497px;
+        }
 
         button {
             border: none;
-            width: 208px;
-            height: 47px;
+            width: 100%;
+            max-width: 200px;
+            height: 100%;
+            min-height: 45px;
             flex-shrink: 0;
             border-radius: 2px;
             background: var(--Primary, #FF6464);
@@ -52,7 +69,10 @@
     .hero {
         img {
             border-radius: 243px;
-            padding-top: 10px;
+            padding: 60px;
+            @media screen and (max-width: 991px) {
+                padding: 20px;
+            }
         }
 
     }

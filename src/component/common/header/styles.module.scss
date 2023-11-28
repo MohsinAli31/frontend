@@ -1,8 +1,12 @@
 .header{
     display: flex;
     justify-content: flex-end;
-        max-width: 1220px;
-        margin: 0 auto;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding-right: 20px;
+    @media(max-width:991px){
+        justify-content: center;
+    }
     ul{
         display: flex;
         list-style: none;
