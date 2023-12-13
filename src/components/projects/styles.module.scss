@@ -1,0 +1,50 @@
+.projects {
+    margin-bottom: 90px;
+
+    .ProjCard {
+        @media(max-width:991px){
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .ProjImg {
+            // margin: 0 auto;
+        }
+
+        .projDesp {
+            color: #000;
+            font-family: Merriweather;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            width: 100%;
+            max-width: 315px;
+            @media(max-width:991px){
+                max-width: 100%;
+            }
+
+            .ProjPara {
+                color: rgba(0, 0, 0, 0.50);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            .ProjDetails {
+                color: #F78065;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+    }
+}

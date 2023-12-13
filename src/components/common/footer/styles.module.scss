@@ -1,0 +1,100 @@
+.Footer {
+    @media(max-width:991px) {
+        padding: 0 30px;
+    }
+    .list{
+        @media(max-width:991px) {
+            text-align: center;
+        }
+    }
+    .easyComfrt {
+        .head {
+            color: #000;
+            font-family: Merriweather;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .desp {
+            color: #000;
+            font-family: Merriweather;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            width: 100%;
+            max-width: 285px;
+            @media(max-width:991px) {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 33px;
+                padding: 10px;
+            }
+
+        }
+    }
+
+    .FAQlist {
+
+        .head {
+            color: #000;
+            font-family: Merriweather;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            @media(max-width:991px) {
+                line-height: 25px;
+            }
+
+        }
+
+        .list {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 7px 0;
+        }
+    }
+
+    .footerLine {
+        // width: 1237px;
+        height: 1px;
+        opacity: 0.2;
+        background: #000;
+    }
+
+    .footerList {
+        @media(max-width:991px) {
+            align-items: center;
+            text-align: center;
+        }
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            @media(max-width:991px) {
+                justify-content: center;   
+            }
+        }
+
+        li a {
+            text-decoration: none;
+            color: #000;
+            text-align: right;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+    }
+}

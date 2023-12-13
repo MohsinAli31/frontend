@@ -1,0 +1,54 @@
+.services {
+    @media(max-width:991px) {
+        padding: 0 30px;
+    }
+    @media(max-width:991px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        color: #000;
+        font-family: Merriweather;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .main {
+        // width: 100%;
+        // // max-width: 386px;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        .head {
+            color: #000;
+            font-family: Merriweather;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            min-height: 50px;
+            @media(max-width:991px) {
+                min-height: 25px;
+            }
+        }
+
+        .desp {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            opacity: 0.5;
+        }
+    }
+}
