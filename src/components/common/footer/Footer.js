@@ -8,7 +8,7 @@ import FAQList from './FAQList';
 
 const Footer = () => {
   return (
-    <Container className={`${styles.Footer} mb-5 pb-5`}>
+    <Container className={`${styles.Footer} pb-5`}>
       <Row className={`${styles.list} my-5`} >
         <Col className={styles.easyComfrt} lg="4">
           <div className={`${styles.head} pb-3`}>Easy Camper</div>

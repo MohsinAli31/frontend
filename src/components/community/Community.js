@@ -50,7 +50,6 @@ const Community = () => {
                     </div>
                 </Col>
                 <Col lg="9">
-
                     <Slider className='my-8' {...settings}>
                         <div className={styles.commList}>
                             <CommList
